@@ -1,0 +1,23 @@
+{
+  "name": "syntax-vscode-theme",
+  "displayName": "Syntax Zed Theme (VSCode port)",
+  "description": "Port of the Syntax.fm Zed theme for VS Code",
+  "version": "1.0.0",
+  "publisher": "Scott Tolinski",
+  "repository": "https://github.com/syntaxfm/syntax-zed-theme",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Syntax Theme",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}
